@@ -1,7 +1,8 @@
-import RegisterForm from "./Forms/RegisterForm";
+import LoginForm from "./Yup/LoginForm/LoginForm";
+import RegisterForm from "./Yup/RegistrationForm/RegistrationForm";
 
 export default function App(){
   return(
-    <RegisterForm />
+    <LoginForm />
   )
 }
