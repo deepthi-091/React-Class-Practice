@@ -1,0 +1,27 @@
+
+
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 24px;
+  background-color: inherit;
+}
+
+.left, .right {
+  display: flex;
+  gap: 20px;
+}
+
+.navlink {
+  text-decoration: none;
+  color: inherit;
+}
+
+.toggleBtn {
+  border: 1px solid currentColor;
+  background: transparent;
+  padding: 6px 10px;
+  cursor: pointer;
+}
