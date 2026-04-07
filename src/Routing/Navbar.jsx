@@ -88,6 +88,8 @@ export default function Navbar() {
       <div className={styles.left}>
         <NavLink to="/" className={styles.navlink}>Home</NavLink>
         <NavLink to="/products" className={styles.navlink}>Products</NavLink>
+        <NavLink to="/users" className={styles.navlink}>Users</NavLink>
+        <NavLink to="/posts" className={styles.navlink}>Posts</NavLink>
       </div>
 
       <div className={styles.right}>
